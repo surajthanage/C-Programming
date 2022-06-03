@@ -1,0 +1,44 @@
+//Accept one number from user (and print that number of * on screen
+#include<stdio.h>
+
+///////////////////////////////////////////////////////////////
+//
+// Function name : Accept
+// Description   : use to perfrom oprator
+// Input			 : Pointer,Integer
+// Output			 : Integer
+// Date			 : 1/04/2022
+// Author			 : Suraj Sanjay Thanage
+//
+//////////////////////////////////////////////////////////////
+
+void Accept(int iNo)
+{
+	int iCnt=0;
+	for(iCnt=1;iCnt<=5;iCnt++)
+	{
+		printf("*\n");
+	}
+}
+
+///////////////////////////////////////////////////////
+// Write a program to perform pattern
+//////////////////////////////////////////////////////
+
+int main()
+{
+	int iValue=0;
+
+	 iValue=5;
+
+	Accept(iValue);
+
+	return 0;
+}
+
+///////////////////////////////////////////////////////
+//
+// Input	:		5
+// output	:		*	*	*	*	*
+//
+///////////////////////////////////////////////////////
