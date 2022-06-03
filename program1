@@ -1,0 +1,45 @@
+#include<stdio.h>
+
+///////////////////////////////////////////////////////////////
+//
+// Function name 	 : Divide
+// Description  	 : use to perfrom of 2 numbers
+// Input			 : Integer
+// Output			 : Integer
+// Date				 : 1/04/2022
+// Author			 : Suraj Sanjay Thanage
+//
+//////////////////////////////////////////////////////////////
+
+int Divide(int iNo1,int iNo2)
+{
+	int iAns =0;
+/*	if(iNo2>iNo1)
+	{
+		return -1;
+	}*/
+	iAns=iNo1/iNo2;
+	return iAns;
+}
+
+///////////////////////////////////////////////////////
+// Write a program to perform divided of 2 numbers
+//////////////////////////////////////////////////////
+
+int main()
+{
+	int iValue1 = 15,iValue2=5;
+	int iRet =0;
+
+	iRet = Divide(iValue1,iValue2);
+	printf("Division is %d\n",iRet);
+
+	return 0;
+}
+
+///////////////////////////////////////////////////////
+//
+// Input	:		15				5
+// output	:		3
+//
+///////////////////////////////////////////////////////
