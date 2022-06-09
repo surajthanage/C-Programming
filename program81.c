@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<stdbool.h>
+
+
+//////////////////////////////////////////////////////////////////////
+//
+// Function name  : DisplayASCII
+// Description    : use to perfrom Display ASCII table
+// Input		   : Integer
+// Output		   : Character
+// Date			: 25/05/2022
+// Author		   : Suraj Sanjay Thanage
+//
+//////////////////////////////////////////////////////////////////////
+
+void DisplayASCII()
+{
+	int i=0;
+	
+	for(i=0;i<=255;i++)
+	{
+		printf("%d\t %x\t %o\n",i,i,i);
+	}
+}
+///////////////////////////////////////////////////////////////////////
+// Display ASCII table
+///////////////////////////////////////////////////////////////////////
+
+int main()
+{
+	DisplayASCII();
+	
+	return 0;
+}
