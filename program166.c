@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+///////////////////////////////////////////////////////////////////////////
+//
+// Description    : accept number from user and sum digit
+// Date			   : 10/06/2022
+// Author		   : Suraj Sanjay Thanage
+//
+////////////////////////////////////////////////////////////////////////////
+void Display(char *str)
+{
+	 if(*str!='\0')
+	 {
+		Display(str+1);
+		printf("%c\n",*str);
+	 }
+
+}
+int main()
+{
+	
+	char Arr[10];
+	
+	printf("Enter string \n");
+	scanf("%[^'\n']s",Arr);
+	
+	Display(Arr);
+	
+	
+	return 0;
+}
